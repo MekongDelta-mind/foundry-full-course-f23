@@ -565,8 +565,9 @@ Please refer to this for an in-depth explanation of the content:
 
 # [Testnet Faucets](https://faucets.chain.link)
 
-- Main Faucet:<a href="https://sepoliafaucet.com/" target="_blank"> https://sepoliafaucet.com/</a>
-- Backup Faucet:<a href="https://www.infura.io/faucet/sepolia" target="_blank" > https://www.infura.io/faucet/sepolia</a>
+- Main: <a href="https://cloud.google.com/application/web3/faucet/ethereum/sepolia" target="_blank"> Sepolia GCP Faucet </a>
+- Alchemy Faucet:<a href="https://sepoliafaucet.com/" target="_blank"> https://sepoliafaucet.com/</a>
+- Infura Faucet:<a href="https://www.infura.io/faucet/sepolia" target="_blank" > https://www.infura.io/faucet/sepolia</a>
 
 > ⚠️ All code associated with this course is for demo purposes only. They have not been audited and should not be considered production ready. Please use at your own risk.
 
@@ -949,7 +950,7 @@ _[⌨️ (4:36:22) | Quick recap I](https://youtu.be/umepbfKp5rI?t=16582)_
 
 _[⌨️ (4:37:08) | Interfaces](https://youtu.be/umepbfKp5rI?t=16628)_
 
-- For reference - [ChainLink Interface's Repo](https://github.com/smartcontractkit/chainlink/blob/develop/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol)
+- For reference - [ChainLink Interface's Repo](https://github.com/smartcontractkit/chainlink/blob/develop/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol)
 
 ## AI Help III
 
@@ -1393,7 +1394,7 @@ _[⌨️ (25:47) | Forked Tests ](https://youtu.be/sas02qSFZ74?t=1547)_
 forge test -m testPriceFeedVersionIsAccurate -vvv
 ```
 
-is depreciated. Please use
+is deprecated. Please use
 
 ```
 forge test --match-test testPriceFeedVersionIsAccurate -vvv
@@ -1516,7 +1517,7 @@ _[⌨️ (1:48:20) | Gas: Cheaper Withdraw (continued) ](https://youtu.be/sas02q
 
 - [evm.codes](https://www.evm.codes/)
 - [Style Guide](https://docs.soliditylang.org/en/latest/style-guide.html)
-  - [Chainlink Style Guide](https://github.com/smartcontractkit/chainlink/blob/develop/contracts/STYLE.md)
+  - [Chainlink Style Guide](https://github.com/smartcontractkit/chainlink/blob/develop/contracts/STYLE_GUIDE.md)
 - [NatSpec](https://docs.soliditylang.org/en/latest/natspec-format.html)
 
 ## Interactions.s.sol
@@ -1781,6 +1782,7 @@ _[⌨️ (5:26:41) | Create Subscription from the UI ](https://youtu.be/sas02qSF
 _[⌨️ (5:30:19) | Fund Subscription Script ](https://youtu.be/sas02qSFZ74?t=19819)_
 
 - [Link Token](https://chain.link/)
+  - [Link Token Addresses](https://docs.chain.link/resources/link-token-contracts)
 - [Solmate](https://github.com/transmissions11/solmate)
 - [Openzeppelin](https://www.openzeppelin.com/)
 
@@ -2345,8 +2347,8 @@ Plutocracy is bad! Don't default to ERC20 token voting!!
 
 _[⭐️ (6:05:45) | Lesson 14 | DAOs & Governance](https://www.youtube.com/watch?v=wUjYK5gwNZs&t=21945s)_
 
-- [Plutocracy is bad](https://vitalik.ca/general/2018/03/28/plutocracy.html)
-- [DAOs are not corporations](https://vitalik.ca/general/2022/09/20/daos.html)
+- [Plutocracy is bad](https://vitalik.eth.limo/general/2018/03/28/plutocracy.html)
+- [DAOs are not corporations](https://vitalik.eth.limo/general/2022/09/20/daos.html)
 
 ## What is a DAO?
 
@@ -2366,7 +2368,7 @@ _[⭐️ (6:05:45) | Lesson 14 | DAOs & Governance](https://www.youtube.com/watc
 
 - [Openzeppelin Governance](https://docs.openzeppelin.com/contracts/4.x/api/governance)
 - [Compound Governance](https://compound.finance/governance)
-- [Contract Wizard](https://docs.openzeppelin.com/contracts/4.x/wizard)
+- [Contract Wizard](https://wizard.openzeppelin.com/)
 
 ### Governor
 
